@@ -1,4 +1,4 @@
-# series_wasted_time_calulator
+# series_wasted_time_calculator
 ## ¿Quieres saber cuánto tiempo desperdicias viendo series y cómo recuperarlo?
 ¡Tan solo clonea esta repo y ejecuta el script en Python 3!
 
