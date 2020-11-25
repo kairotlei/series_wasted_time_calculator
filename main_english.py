@@ -34,7 +34,7 @@ If you skip the intro of every chapter, you would recover another {save_intro_mi
 You could also save {save_outro_mins} minutes if you don't stare at the ending credits.
 
 So, in conclusion:
-- Watching '{series_name}' {times_watched} would cost you {wasted_time_hrs} irrecoverable hours of you life.
+- Watching '{series_name}' {times_watched} would cost you {wasted_time_hrs} irrecoverable hours of your life.
 - Ignoring flourishes (summary, intro, credits) saves you {total_savings} minutes.
 - The {good_series_hrs}% of '{series_name}' is worthless time (% is flourishes time / all series time)
 """)
