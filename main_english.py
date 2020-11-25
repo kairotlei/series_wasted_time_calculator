@@ -1,5 +1,6 @@
 import webbrowser
 import time
+import sys
 
 time_start = float(time.time())
 print("Clear your mind and think on a series...")
