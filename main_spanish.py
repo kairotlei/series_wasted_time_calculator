@@ -33,7 +33,7 @@ En conclusión:
 """)
 time_end = float(time.time())
 time_final = round(float(time_end - time_start), 2) 
-print(f"Por cierto, al hacer este test has perdido unos preciosos {time_final} de tu vida.")
+print(f"Por cierto, al hacer este test has perdido unos preciosos {time_final} segundos de tu vida.")
 
 # Abre una ventana de Twitter en donde poder tweetear y comentar el resultado
 webbrowser.open(f"""https://twitter.com/intent/tweet?text=Hey, si viera la serie '{series_name}' completamente, perderia {wasted_time_hrs} horas de mi vida en ella. Ignorando florituras podría recuperar {total_savings} minutos! ¡¡Y he desperdiciado {time_final} segundos en este test!!""")
