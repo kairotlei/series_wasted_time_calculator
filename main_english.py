@@ -44,7 +44,7 @@ print(f"Also, did you notice that you just wasted another {time_final} seconds w
 kill = str(input("""To optinally share result on Twitter, enter T.
 Enter any other key to finalize this program."""))
 # Opens a Twitter window where you can tweet and comment you result.
-if kill.lower() is "t":
+if kill.lower() == "t":
     webbrowser.open(f"""https://twitter.com/intent/tweet?text=Hey, if I completely watch the '{series_name}' series {times_watched}, I would waste {wasted_time_hrs} hours of my life into it. Ignoring flourishes I could recover {total_savings} minutes! And I also wasted {time_final} seconds while discovering this!!""")
 else:
     sys.exit()
