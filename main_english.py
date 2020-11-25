@@ -42,7 +42,8 @@ time_end = float(time.time())
 time_final = round(float(time_end - time_start), 2) 
 print(f"Also, did you notice that you just wasted another {time_final} seconds while doing this test?.")
 
-kill = str(input("""To optinally share result on Twitter, enter T.
+kill = str(input("""
+To optinally share result on Twitter, enter T.
 Enter any other key to finalize this program."""))
 # Opens a Twitter window where you can tweet and comment you result.
 if kill.lower() == "t":
